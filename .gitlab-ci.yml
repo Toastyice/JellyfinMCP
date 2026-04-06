@@ -1,0 +1,2 @@
+include:
+  - component: $CI_SERVER_FQDN/cicd-catalog/container/gitlab-ci-docker@main

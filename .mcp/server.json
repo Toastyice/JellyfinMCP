@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "description": "An MCP server for Jellyfin media server integration. Provides tools for searching movies, browsing libraries, retrieving genres, finding actors, getting movie details, and fetching item images.",
+  "name": "io.github.toastyice/JellyfinMCP",
+  "version": "0.1.0-beta",
+  "packages": [
+    {
+      "registryType": "nuget",
+      "identifier": "JellyfinMCP",
+      "version": "0.1.0-beta",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [],
+      "environmentVariables": [
+        "JELLYFIN_URL",
+        "JELLYFIN_API_KEY",
+        "JELLYFIN_USER_ID"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/toastyice/JellyfinMCP",
+    "source": "github"
+  }
+}
